@@ -17,6 +17,16 @@
   font-family: sukum-mid;
   src: url(../font/sukum-mid.ttf);
 }
+
+@font-face {
+  font-family: bernier;
+  src: url(../font/bernier.otf)
+}
+
+@font-face {
+  font-family: mono;
+  src: url(../font/mono.ttf);
+}
 .navigation__checkbox {
     display: none;
   }
@@ -63,6 +73,7 @@
     width: 100%;
   }
   .navigation__link:link, .navigation__link:visited {
+    font-family: mono;
     display: inline-block;
     font-size: 3rem;
     font-weight: 300;
@@ -125,4 +136,5 @@
     transform: rotate(-135deg);
     bottom: 0;
   }
+
   
