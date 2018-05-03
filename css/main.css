@@ -1,0 +1,109 @@
+@font-face {
+    font-family: harley;
+    src: url(../font/harley.ttf);
+}
+
+@font-face {
+    font-family: sukum;
+    src: url(../font/sukum.ttf);
+}
+
+@font-face {
+    font-family: typo;
+    src: url(../font/typo.otf);
+}
+
+@font-face {
+    font-family: sukum-mid;
+    src: url(../font/sukum-mid.ttf);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden
+}
+
+body {
+    background: #fff;
+}
+
+.parallax-home {
+    /* The image used */
+    /* background-image: url(../Pics/bg/home.jpg); */
+    /* Full height */
+    /* height: 900px; */
+    min-height: 375px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*video background class*/
+
+.video-background { box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media (max-aspect-ratio: 13.3/7.5) {
+  .video-foreground { width: 100%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+/*End Video*/
+
+.intro {
+    background: white;
+    width: 100%;
+    height: 50%;
+    margin-top: 10%;
+}
+
+.intro p {
+    font-family: sukum;
+    font-size: 1vw;
+    text-align: justify;
+    padding: 10%;
+}
+
+.wordword {
+    font-family: sukum-mid;
+    color: #fff;
+    font-size: 5vw;
+}
+
+/*logo*/
+
+#logo {
+    margin-top: 10%;
+    margin-left: 8%;
+}
