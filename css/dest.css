@@ -1,0 +1,174 @@
+@font-face {
+    font-family: harley;
+    src: url(../font/harley.ttf);
+}
+
+@font-face {
+    font-family: sukum;
+    src: url(../font/sukum.ttf);
+}
+
+@font-face {
+    font-family: typo;
+    src: url(../font/typo.otf);
+}
+
+@font-face {
+    font-family: sukum-mid;
+    src: url(../font/sukum-mid.ttf);
+}
+
+@font-face {
+    font-family: bernier;
+    src: url(../font/bernier.otf)
+}
+
+@font-face {
+    font-family: mono;
+    src: url(../font/mono.ttf);
+}
+#sea{
+    background: url(../Pics/sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#island{
+    background: url(../Pics/island.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#water{
+    background: url(../Pics/water.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#other{
+    background: url(../Pics/other.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#restu{
+    background: url(../Pics/restu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec1 {
+    background: url(../Pics/Des/sea/hatyaw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec2{
+    background: url(../Pics/Des/sea/jaomai.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec3{
+    background: url(../Pics/Des/sea/pakmeng.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec4{
+    background: url(../Pics/Des/sea/viva.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec5{
+    background: url(../Pics/Des/island/kradan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec6 {
+    background: url(../Pics/Des/island/libong.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+    text-shadow: 1px 5px #323232;
+}
+#sec7{
+    background: url(../Pics/Des/island/mook.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec8{
+    background: url(../Pics/Des/water/khaochong.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec9{
+    background: url(../Pics/Des/water/nokyung.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec10{
+    background: url(../Pics/Des/water/tontae.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec11 {
+    background: url(../Pics/Des/other/andamangate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec12{
+    background: url(../Pics/Des/other/hot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec13{
+    background: url(../Pics/Des/other/plant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec14{
+    background: url(../Pics/Des/restuarant/kobun.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec15{
+    background: url(../Pics/Des/restuarant/kokia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec16{
+    background: url(../Pics/Des/restuarant/koyuad.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec17{
+    background: url(../Pics/Des/restuarant/muyang.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec18{
+    background: url(../Pics/Des/restuarant/pong.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}
+#sec19{
+    background: url(../Pics/Des/restuarant/sinjiw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
+}

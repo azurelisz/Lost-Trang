@@ -34,23 +34,56 @@
     background-repeat: no-repeat;
     text-shadow: 1px 5px #323232;
 }
-#sec2{
+
+#sec2 {
     background: url(../Pics/Life/food/sec2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#sec3{
+
+#sec3 {
     background: url(../Pics/Life/food/food1.JPG);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#sec4{
+
+#sec4 {
     background: url(../Pics/Life/food/food2.JPG);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#sec5{
-    background: url(../Pics/Life/food/food3.jpg);
+
+#sec5 {
+    background: url(../Pics/Life/job/job1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+#sec6 {
+    background: url(../Pics/Life/trad/trad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sec7 {
+    background: url(../Pics/Life/trad/trad2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section p{
+    padding: 20%;
+    font-size: 25px;
+    font-family: sukum;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.section p:hover{
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    transition: 0.55s all;
 }

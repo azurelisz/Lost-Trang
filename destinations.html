@@ -1,26 +1,147 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Lost In Trang:Lost in You</title>
+    <title>Trang:Life-Style</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="Pics/logov2.png">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/nav.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/home-logo.css" />
-    <link rel="stylesheet" href="bootstrap-grid.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/glich.css" />
-    <link rel="stylesheet" href="css/text-svg.css">
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/dest.css" />
+    <link rel="icon" type="image/png" href="Pics/logov2.png">
+
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="vendors/jquery.easings.min.js"></script>
+
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'white', 'yellow', 'orange'],
+                css3: true
+            });
+        });
+    </script>
+    <style type="text/css">
+        @font-face {
+            font-family: harley;
+            src: url(../font/harley.ttf);
+        }
+
+        .section {
+            color: #fff;
+            font-size: 6em;
+            text-align: center;
+            font-family: harley;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="index.html" class="navigation__link">HOME</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="history.html" class="navigation__link">HISTORY</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="life-style.html" class="navigation__link">LIFESTYLE</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="destinations.html" class="navigation__link">DESTINATION</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="index.html#mem-team" class="navigation__link">MEMBERS</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="fullpage">
+        <div id="sea" class="section">
+            <h1>Trang's sea</h1>
+        </div>
+        <div id="sec1" class="section">
+            <h1>HatYaw beach</h1>
+        </div>
+        <div id="sec2" class="section">
+            <h1>Jaomai beach</h1>
+        </div>
+        <div id="sec3" class="section">
+            <h1>Pakmeng beach</h1>
+        </div>
+        <div id="sec4" class="section">
+            <h1>under water wedding beach</h1>
+        </div>
+        <div id="island" class="section">
+            <h1>Trang's Island</h1>
+        </div>
+        <div id="sec5" class="section">
+            <h1>Kradan Island</h1>
+        </div>
+        <div id="sec6" class="section">
+            <h1>Libong Island</h1>
+        </div>
+        <div id="sec7" class="section">
+            <h1>Mook Island</h1>
+        </div>
+        <div id="water" class="section">
+            <h1>Trang's Water Fall</h1>
+        </div>
+        <div id="sec8" class="section">
+            <h1>Khao Chong WaterFall</h1>
+        </div>
+        <div id="sec9" class="section">
+            <h1>Nokyoong WaterFall</h1>
+        </div>
+        <div id="sec10" class="section">
+            <h1>TonTae WaterFall</h1>
+        </div>
+        <div id="other" class="section">
+            <h1>Another Special Places</h1>
+        </div>
+        <div id="sec11" class="section">
+            <h1>Andaman Gateway</h1>
+        </div>
+        <div id="sec12" class="section">
+            <h1>KuanKang Hot Spring</h1>
+        </div>
+        <div id="sec13" class="section">
+            <h1>Southern Botanical Garden</h1>
+        </div>
+        <div id="restu" class="section">
+            <h1>Trang's Restuarant</h1>
+        </div>
+        <div id="sec14" class="section">
+            <h1>Kantang Dim-Som Restuarant</h1>
+        </div>
+        <div id="sec15" class="section">
+            <h1>Kokia Restuarant</h1>
+        </div>
+        <div id="sec16" class="section">
+            <h1>Yen-Ta-Four Koyuad</h1>
+        </div>
+        <div id="sec17" class="section">
+            <h1>Trang Rosted Pork</h1>
+        </div>
+        <div id="sec18" class="section">
+            <h1>Pong-O-Cha Restuarant</h1>
+        </div>
+        <div id="sec19" class="section">
+            <h1>Sinjiw Restuarant</h1>
+        </div>
+    </div>
 </body>
-</html>
-<html>
 
 </html>
