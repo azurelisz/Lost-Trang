@@ -28,42 +28,29 @@
     src: url(../font/mono.ttf);
 }
 
-body {
-    margin: 0;
-    overflow-x: hidden;
+#sec1 {
+    background: url(../Pics/Life/life/life1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 5px #323232;
 }
-
-.section p {
-    padding: 10%;
-    font-family: sukum;
-    font-size: 20px;
-    color: #fff;
-    text-align: justify;
-}
-
-#his {
-    background: url(../Pics/His/his1.jpg);
+#sec2{
+    background: url(../Pics/Life/food/sec2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#his p{
-    background: rgba(32, 32, 32, 0.8);
-}
-
-#his1 {
-    background: url(../Pics/His/his2.jpg);
+#sec3{
+    background: url(../Pics/Life/food/food1.JPG);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#his1 p{
-    background: rgba(32, 32, 32, 0.8);
-}
-
-#his2 {
-    background: url(../Pics/His/his3.jpg);
+#sec4{
+    background: url(../Pics/Life/food/food2.JPG);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#his2 p{
-    background: rgba(32, 32, 32, 0.8);
+#sec5{
+    background: url(../Pics/Life/food/food3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
